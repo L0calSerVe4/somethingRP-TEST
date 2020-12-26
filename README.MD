@@ -8,4 +8,11 @@
 Просто тестовая хрень, всё как всегда. :D  
 Made by Slav_NickSaltFoxu  
 
+----------------------
+```
+git clone https://github.com/L0calSerVe4/somethingRP-TEST
+cd somethingRP-TEST
+dotnet run
+```
+
 
