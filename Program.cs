@@ -54,7 +54,7 @@ namespace something
                 {
                     if (_arg.Equals("--help") || _arg.Equals("-h"))
                     {
-                        Console.WriteLine("test");
+                        Console.WriteLine("something.exe [-h || --help  ==  Help] [--test  ==  RPC Test]");
                         return;
                     }
                     else if (_arg.Equals("--test"))
@@ -72,8 +72,7 @@ namespace something
             else
             {
                 Console.WriteLine("\nUsage:");
-                Console.WriteLine("something.exe [-st small image text*] [-lt large image text*] [-s state text*] [-d details text*]\r\n" +
-                                  "\t*required");
+                Console.WriteLine("something.exe [-h || --help  ==  Help] [--test  ==  RPC Test]");
                 return;
             }
         }
